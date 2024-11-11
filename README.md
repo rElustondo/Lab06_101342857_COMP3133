@@ -1,13 +1,42 @@
 # Lab06_101342857_COMP3133
 
 This repository contains two exercises demonstrating different web application frameworks and configurations.
-
+## Project Structure
+Lab06_101342857_COMP3133-main/
+├── exercise-1/
+│   ├── myapp/
+│   │   ├── bin/
+│   │   │   └── www
+│   │   ├── node_modules/
+│   │   ├── public/
+│   │   │   ├── images/
+│   │   │   ├── javascripts/
+│   │   │   └── stylesheets/
+│   │   │       └── style.css
+│   │   ├── routes/
+│   │   │   ├── index.js
+│   │   │   └── users.js
+│   │   ├── views/
+│   │   │   ├── error.pug
+│   │   │   ├── index.pug
+│   │   │   └── layout.pug
+│   │   ├── app.js
+│   │   ├── package.json
+│   │   └── package-lock.json
+├── exercise-2/
+│   ├── my-app/
+│   │   ├── dist/
+│   │   ├── e2e/
+│   │   ├── node_modules/
+│   │   ├── src/
+│   │   │   ├── app/
+│   │   │   │   ├── app.component.css
+│   │   │   │   ├── app.component.html
+│   │   │   │   ├── app.component.spec.ts
+│   │   │   │
 ## Exercise 1: Express.js Application
 
 This exercise demonstrates a basic web application built using Express.js.
-
-### Project Structure
-exercise-1/ myapp/ app.js bin/ www package.json public/ stylesheets/ style.css routes/ index.js users.js views/ error.pug index.pug layout.pug
 
 
 ### Description
@@ -31,9 +60,6 @@ To run the Express.js application:
 ## Exercise 2: Angular Application
 
 This exercise demonstrates a basic web application built using Angular.
-
-### Project Structure
-exercise-2/ my-app/ angular.json package.json README.md server.ts src/ app/ app.component.css app.component.html app.component.spec.ts app.component.ts ... index.html main.server.ts main.ts styles.css tsconfig.app.json tsconfig.json tsconfig.spec.json
 
 ### Description
 
